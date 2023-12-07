@@ -2,13 +2,6 @@ package spi_pkg;
 import uvm_pkg::*;
 `include "uvm_macros.svh"
 
-// `include "./rtl/clock_divider2.v"
-// `include "rtl/deserializer.v"
-// `include "rtl/rst_sync.v"
-// `include "rtl/serializer.v"
-// `include "rtl/SPI_master.v"
-// `include "spi_intf.sv"
-
 `include "spi_sequence_item.sv"
 `include "spi_tx_sequence.sv"
 `include "spi_miso_sequence.sv"
